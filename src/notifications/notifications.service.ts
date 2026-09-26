@@ -6,7 +6,7 @@ import { CreateNotificationDto } from './dto/create-notification.dto';
 import {
   NOTIFICATION_REPOSITORY,
   USER_REPOSITORY,
-} from 'src/common/constants/tokens.constant';
+} from '../common/constants/tokens.constant';
 
 @Injectable()
 export class NotificationsService {

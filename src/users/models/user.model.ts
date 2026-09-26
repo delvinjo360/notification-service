@@ -1,6 +1,6 @@
 import { Column, DataType, Table, HasMany } from 'sequelize-typescript';
 import { BaseModel } from '../../common/database/base.model';
-import { Notification } from 'src/notifications/models/notification.model';
+import { Notification } from '../../notifications/models/notification.model';
 
 @Table({ tableName: 'users', timestamps: true, underscored: true })
 export class User extends BaseModel<User> {

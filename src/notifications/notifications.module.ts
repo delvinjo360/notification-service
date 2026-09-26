@@ -3,7 +3,7 @@ import { SequelizeModule } from '@nestjs/sequelize';
 import { Notification } from './models/notification.model';
 import { NotificationRepository } from './repositories/notification.repository';
 import { UsersModule } from '../users/users.module';
-import { NOTIFICATION_REPOSITORY } from 'src/common/constants/tokens.constant';
+import { NOTIFICATION_REPOSITORY } from '../common/constants/tokens.constant';
 import { NotificationsService } from './notifications.service';
 import { NotificationsController } from './notifications.controller';
 
